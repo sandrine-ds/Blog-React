@@ -1,0 +1,12 @@
+.accueil {
+    width: 80%;
+    padding: 10em;
+}
+.accueil h1 {
+    display: flex;
+    justify-content: center;
+}
+.accueil p {
+    display: flex;
+    justify-content: center;
+}

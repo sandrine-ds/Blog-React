@@ -1,0 +1,36 @@
+.divBody {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contBtn {
+    display: flex;
+    justify-content: space-around;
+}
+.onglets {
+    width: 250px;
+    height : 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #333;
+
+}
+.container {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #333;
+    border-top: none;
+}
+.container p {
+ padding : 40px;
+ margin:0;   
+}
+
+.active {
+    background: wheat;
+    color: tomato;
+}
