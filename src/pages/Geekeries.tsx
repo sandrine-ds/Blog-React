@@ -6,7 +6,7 @@ return(
     <div className="accueil">
         <h1>Geekeries</h1>
         <p>
-            Geekeries
+            Posts "Geekeries" à venir
         </p>
     </div>
 )

@@ -1,33 +1,9 @@
 import React from 'react';
 import './accueil.css'
-import Onglet from '../composant/Onglet';
+
 
 const Accueil = () => {
 
-
-    if(stateOnglets === 1){
-        return(
-            <Accueil/>
-        )
-    }
-    else if (stateOnglets === 2){
-        return(
-            <Bois/>
-        )
-    }else if (stateOnglets === 3){
-        return(
-            <Couture/>
-        )
-    }else if (stateOnglets === 4){
-        return(
-            <DIY/>
-        );
-        
-    }else if (stateOnglets === 5){
-        return(
-            <Geekeries/>
-        )
-    };
 return(
     <div className="accueil">
         <h1>Présentation</h1>
@@ -37,6 +13,10 @@ return(
             Motivée par le souhait de consommer moins mais plus intelligemment, 
             j'apprécie de découvrir différentes techniques en auto didacte afin 
             de donner une nouvelle vie aux matériaux.
+            Actuellement en train d'apprendre les joies de la programmation, 
+            je souhaite montrer quelques petites créations, 
+            numériques cette fois, au fur et à mesure de mon apprentissage ! 
+            Pour cela, rendez-vous dans l'onglet "geekeries".
         </p>
     </div>
 )
