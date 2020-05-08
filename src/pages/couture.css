@@ -1,0 +1,29 @@
+.post1{
+    padding-top: 10%;
+    display: inline;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.post1 h1{
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titre1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.par-ctn{
+    padding-top: 5%;
+
+}
+.img-fluid1 {
+    display: inline;
+    width: 30%;
+}
+.par1{
+    display: inline;
+    padding: 5%;
+}

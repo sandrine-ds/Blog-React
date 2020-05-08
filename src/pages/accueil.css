@@ -1,6 +1,6 @@
 .accueil {
-    width: 80%;
-    padding: 10em;
+    width: 100%;
+    padding: 4em;
 }
 .accueil h1 {
     display: flex;

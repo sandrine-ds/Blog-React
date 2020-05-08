@@ -1,5 +1,73 @@
 
-.img{
+.img-fluid{
   width: 100%;
 }
 
+.conteneur-img{
+  position: relative;
+
+}
+.conteneur-bandeau{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.bandeau-noir{
+  position: relative;
+  height: 2.5em;
+  width: 100%;
+  background: linear-gradient(#080810,80%,transparent);
+  color: white;
+}
+
+.conteneur-titre-btn{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* .titre{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+} */
+.conteneur-titre-btn h1{
+  padding-top: 10%;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.contBtn {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  /* position: fixed;
+  color: black;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em; */
+
+}
+.link {
+
+  text-decoration: none;
+  color: white;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.link:hover{
+color: white;
+text-decoration-line: overline;
+
+}

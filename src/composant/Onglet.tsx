@@ -6,6 +6,7 @@ import Couture from '../pages/Couture';
 import DIY from '../pages/DIY';
 import Geekeries from '../pages/Geekeries';
 
+
 export default function Onglet(){
 //J'initialise mon state à 0
     const [stateOnglets, setStateOnglets] = useState(0);
@@ -42,30 +43,30 @@ export default function Onglet(){
     };
 
 
-//essai avec conditions (fonctionne) mais je n'arrive pas à garder les onglets visibles
-    if(stateOnglets === 1){
-        return(
-            <Accueil/>
-        )
-    }
-    else if (stateOnglets === 2){
-        return(
-            <Bois/>
-        )
-    }else if (stateOnglets === 3){
-        return(
-            <Couture/>
-        )
-    }else if (stateOnglets === 4){
-        return(
-            <DIY/>
-        );
+// //essai avec conditions (fonctionne) mais je n'arrive pas à garder les onglets visibles
+//     if(stateOnglets === 1){
+//         return(
+//             <Accueil/>
+//         )
+//     }
+//     else if (stateOnglets === 2){
+//         return(
+//             <Bois/>
+//         )
+//     }else if (stateOnglets === 3){
+//         return(
+//             <Couture/>
+//         )
+//     }else if (stateOnglets === 4){
+//         return(
+//             <DIY/>
+//         );
         
-    }else if (stateOnglets === 5){
-        return(
-            <Geekeries/>
-        )
-    };
+//     }else if (stateOnglets === 5){
+//         return(
+//             <Geekeries/>
+//         )
+//     };
     
 
     return(
